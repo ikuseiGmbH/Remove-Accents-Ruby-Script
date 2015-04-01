@@ -14,7 +14,7 @@ What you want in this case is "francois_leveille" or "francoisleveille" and this
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'uniq_logger'
+gem 'remove_accents'
 ```
 
 And then execute:
@@ -23,7 +23,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install uniq_logger
+    $ gem install remove_accents
 
 ## Usage
 
