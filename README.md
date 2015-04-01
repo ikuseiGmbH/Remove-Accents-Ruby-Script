@@ -9,20 +9,36 @@ If you're like me, you've probably had many occasions where you wanted to get a 
 
 What you want in this case is "francois_leveille" or "francoisleveille" and this is where this script will help you.
 
-First, DOWNLOAD THE SCRIPT. Make sure to require it in your project. If you are using Ruby on Rails, place it in the lib directory and add this line to the bottom of your config/environment.rb file:
+## Installation
 
-    require 'extend_string'
+Add this line to your application's Gemfile:
 
-Once you're done, you now have 2 additional methods in the String class. This means that for any string anywhere in your project, you can do:
+```ruby
+gem 'uniq_logger'
+```
 
-Example use
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install uniq_logger
+
+## Usage
+
+
 ===========
 
 	# Set a sample string to test things out
+	```ruby
 	mystring = "Ceci Est UN test : éàòù"
+	```
 
 	# The removeaccents method simple removes the accents and returns the string
+	```ruby
 	mystring.removeaccents
+	```
  
 	# The urlize method not only calls removeaccents, 
 	# but also a bunch of others to make it truly URL-ready.
