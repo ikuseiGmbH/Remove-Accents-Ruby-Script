@@ -30,6 +30,8 @@ Or install it yourself as:
 
 ===========
 
+	require 'remove_accents'
+	
 	# Set a sample string to test things out
 	```ruby
 	mystring = "Ceci Est UN test : éàòù"
